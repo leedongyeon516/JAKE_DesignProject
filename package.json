@@ -1,0 +1,16 @@
+{
+  "name": "webdesignproject_dylee",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "homepage": "https://leedongyeon516.github.io/JAKE_WebDesignProject",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d dist"
+  },
+  "author": "Dongyeon LEE",
+  "license": "ISC",
+  "dependencies": {
+    "gh-pages": "^2.1.1"
+  }
+}
