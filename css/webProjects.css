@@ -27,8 +27,8 @@ body {
   position: fixed;
   display: flex;
   z-index: 100;
-  bottom: 205px;
-  right: 28px;
+  bottom: 210px;
+  right: 43px;
   transition: all 0.5s ease-in-out;
 }
 
@@ -734,6 +734,11 @@ body {
 }
 
 @media screen and (max-width: 319px) {
+  .navbar {
+    bottom: 205px;
+    right: 28px;
+  }
+
   .slider-inner .content {
     display: none;
   }
